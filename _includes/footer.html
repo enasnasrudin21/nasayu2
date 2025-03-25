@@ -1,0 +1,14 @@
+<style>
+    .qr-code {
+        max-width: 100px;
+    }
+</style>
+<div style="text-align: center">
+    {% qr frkr.github.io/linkhub-jekyll-theme/ %}
+</div>
+<footer class="text-center">
+    <small class="text-grey">Powered by <a href="https://github.com/digitalmalayali/linkhub-jekyll-theme"
+        target="_blank">Linkhub</a> v{{ theme.version }}. Code is licensed under <a
+            href="https://github.com/digitalmalayali/linkhub-jekyll-theme/blob/main/LICENSE.txt" target="_blank">MIT</a>.</small>
+    <h3>© {{ "now" | date: "%Y" }} {{ site.name }}</h3>
+</footer>
